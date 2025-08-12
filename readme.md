@@ -1,9 +1,8 @@
-
-
-# 🚀 AI-Powered Talent Management System with Blockchain Resume Verification
+# 🚀 NeoHire – AI-Powered Talent Management with Blockchain Resume Verification  
 
 ## 📌 Overview  
-The **AI-Powered Talent Management System** is an innovative platform that leverages **Artificial Intelligence** and **Blockchain technology** to enhance the recruitment process. It automates resume screening, candidate ranking, and ensures the authenticity of applicant credentials via secure blockchain verification.
+**NeoHire** is an advanced recruitment platform that combines **Artificial Intelligence** and **Blockchain technology** to transform the hiring process.  
+It automates **resume parsing**, **candidate ranking**, and **credential verification**—ensuring a faster, smarter, and more trustworthy recruitment experience.  
 
 ---
 
@@ -26,38 +25,41 @@ The **AI-Powered Talent Management System** is an innovative platform that lever
 - 🔄 **ATS/HRMS Integration**  
   Easily integrates with existing applicant tracking and HR systems.
 
+--- 
+
+## 🧰 Tech Stack  
+
+| Layer         | Technologies                                      |
+|---------------|---------------------------------------------------|
+| **Frontend**  | React.js, HTML5, CSS3, TailwindCSS                 |
+| **Backend**   | Node.js, Express.js                                |
+| **AI/ML**     | Flask, LangChain, Agentic AI, Google Generative AI  |
+| **Blockchain**| Ethereum / Hyperledger Fabric                      |
+| **Database**  | Supabase                                           |
+| **Deployment**| Render / Vercel                                  |
+
 ---
 
-## 🧰 Tech Stack
+## ⚙️ Setup Instructions  
 
-| Layer         | Tech Stack                                      |
-|---------------|--------------------------------------------------|
-| **Frontend**  | React.js, HTML5, CSS3, TailwindCSS                            |
-| **Backend**   | Node.js , Express.js     |
-| **AI/ML**     |  Flask,  AI Agents , Langchain, Google Generative AI            |
-| **Blockchain**| Ethereum / Hyperledger Fabric                    |
-| **Database**  | MongoDB / PostgreSQL                             |
-| **Deployment**| Docker, AWS / GCP                                |
-
----
-
-## ⚙️ Project Setup Instructions
-
-### 🔧 1. Frontend Setup
+### 1️⃣ Frontend Setup  
 ```bash
 cd frontend
 npm install
 npm run dev
+ 
 ```
 
 ### 🧠 2. AI Model Server Setup
 ```bash
 cd models
 python -m venv venv
-source venv/bin/activate  # Use `venv\Scripts\activate` on Windows
+source venv/Scripts/activate  # Use `venv\bin\activate` on MacOs
 pip install -r requirements.txt
 python app.py
+
 ```
+
 
 ### 🖥️ 3. Backend API Server (Optional Node.js Layer)
 ```bash
@@ -66,11 +68,8 @@ npm install
 npm run dev
 ```
 
----
+### 🔗 4️. Blockchain Integration (Set Up the Blockchain Node)
 
-## 🔗 Blockchain Integration
-
-### 4️⃣ Set Up the Blockchain Node
 - Install and configure **Ethereum** or **Hyperledger Fabric**.
 - Write and deploy smart contracts for resume and credential verification.
 - Ensure proper wallet/account integration and access control.
@@ -96,25 +95,6 @@ npm run dev
 
 ---
 
-## 🚀 Future Enhancements
-
-- 🎙️ **AI-Powered Interview Analysis**  
-- 🌐 **LinkedIn & Job Portal Integration**  
-- 🪪 **Decentralized Identity Verification (DID)**  
-- 📥 **Resume Recommendations via LLMs**
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community!  
-To contribute:
-1. Fork the repo
-2. Create a new branch
-3. Submit a pull request
-
----
-
 ## 📄 License
 
 This project is licensed under the **GNU GPL-3.0 License**.  
@@ -124,9 +104,10 @@ See the [LICENSE](./LICENSE) file for more details.
 
 ## 📩 Contact
 
-📧 Email: [ashishk172002@gmail.com](mailto:ashishk172002@gmail.com)  
-🔗 LinkedIn: [Ashish Sankhua](https://www.linkedin.com/in/ashishsankhua1718)
+Have ideas, feedback, or questions?
+
+📧 Email: labibanajmee09@gmail.com
+
+🔗 Github: https://github.com/Labiba786
 
 ---
-
-Let me know if you want to add badges (build, license, tech stack), a live demo link, or GIF/screenshots for the UI too!
